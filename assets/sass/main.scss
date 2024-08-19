@@ -5,11 +5,14 @@
 // pages
 // themes
 // vendors
+@import 'abstracts/variables';
 
 @import 'base/reset';
 @import 'base/typography';
 
 @import 'components/testimonio';
+@import 'components/logo';
+@import 'components/card';
 
 @import 'pages/index';
 
