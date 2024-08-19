@@ -11,8 +11,8 @@
 <body>
     <!--navbar-->
     <nav class="navbar navbar-expand-lg fixed-top">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
+        <div class="container">
+          <a class="navbar-brand text-white logo" href="#"><img class="logo__img" src="./assets/img/viajes.svg" alt="viajes chile logo">Viajes Chile</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -34,7 +34,7 @@
               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
-            <div class="carousel-inner">
+            <div class="carousel-inner rounded-3">
               <div class="carousel-item active">
                 <img src="./assets/img/carousel1.jpg" class="d-block w-100" alt="...">
               </div>
@@ -61,7 +61,7 @@
             <h2 class="text-center">¿Quiénes somos?</h2>
         <div class="row my-2 border-top">
             <div class="col-md-6 my-3 p-4">
-                <img src="./assets/img/quienes-somos.jpg" alt="imagen quienes somos" class="img-fluid" >
+                <img src="./assets/img/quienes-somos.jpg" alt="imagen quienes somos" class="img-fluid rounded-3" >
             </div>
             <div class="col-md-6 p-4 align-content-center">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates similique nesciunt nihil optio harum eos quos obcaecati sunt ex rem iure dicta, quod voluptas laboriosam numquam non hic a dolores, voluptatem, ipsam dolor aliquam veritatis. Ipsam quae dignissimos reiciendis ea, aut ex. Animi, voluptas temporibus, impedit quaerat suscipit consectetur distinctio deleniti repellat sunt fugiat dolor quis voluptates id doloremque? Repellat.</p>
@@ -79,7 +79,7 @@
                     <div class="card m-1">
                         <div class="row g-0">
                           <div class="col-md-4">
-                            <img src="./assets/img/card1.jpg" class="img-fluid rounded-start" alt="...">
+                            <img src="./assets/img/card1.jpg" class="rounded-start card__img" alt="...">
                           </div>
                           <div class="col-md-8">
                             <div class="card-body">
@@ -101,7 +101,7 @@
                     <div class="card m-1">
                         <div class="row g-0">
                           <div class="col-md-4">
-                            <img src="./assets/img/card2.jpg" class="img-fluid rounded-start" alt="...">
+                            <img src="./assets/img/card2.jpg" class="card__img rounded-start" alt="...">
                           </div>
                           <div class="col-md-8">
                             <div class="card-body">
@@ -123,7 +123,7 @@
                     <div class="card m-1">
                         <div class="row g-0">
                           <div class="col-md-4">
-                            <img src="./assets/img/card3.jpg" class="img-fluid rounded-start" alt="...">
+                            <img src="./assets/img/card3.jpg" class="card__img rounded-start" alt="...">
                           </div>
                           <div class="col-md-8">
                             <div class="card-body">
@@ -145,7 +145,7 @@
                     <div class="card m-1">
                         <div class="row g-0">
                           <div class="col-md-4">
-                            <img src="./assets/img/card4.jpg" class="img-fluid rounded-start" alt="...">
+                            <img src="./assets/img/card4.jpg" class="card__img rounded-start" alt="...">
                           </div>
                           <div class="col-md-8">
                             <div class="card-body">
@@ -220,7 +220,7 @@
             <textarea class="form-control" placeholder="Escribe tu comentario" id="floatingTextarea1" style="height: 100px"></textarea>
 
           </div>
-          <button type="submit" class="btn button px-5 text-white mt-4">Enviar</button>
+          <button type="submit" class="btn btn-light px-5 mt-4" onclick="alert('el formulario ha sido enviado con exito')">Enviar</button>
         </form>
         <div class="col-12 col-md-6 align-content-center">
           <div class="col-6 col-md-6 my-3">
